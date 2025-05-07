@@ -60,7 +60,7 @@ Both models were trained and evaluated on the large-scale [MovieLens 25M](https:
 
 A hybrid model that combines Generalized Matrix Factorization (GMF) and Multi-Layer Perceptrons (MLP) to learn user-item interaction patterns.
 
-![NCF Architecture](https://miro.medium.com/v2/resize:fit:720/format:webp/1*Tqk7Q2q7wsr6MLF8Xl-emg.png)
+![NCF Architecture](architecture-diagrams/ncf-architecture.png)
 
 **Key Components**:
 - Embedding layers for users and items.
@@ -93,7 +93,7 @@ A hybrid model that combines Generalized Matrix Factorization (GMF) and Multi-La
 
 An advanced auto-encoder model tailored for collaborative filtering. CDAE adds user embeddings and noise during training to improve robustness.
 
-![CDAE Architecture](https://www.researchgate.net/profile/Lei-Zheng-8/publication/342940804/figure/fig1/AS:918612040032256@1594319575817/Collaborative-denoising-autoencoder-model-CDAE-6.png)
+![CDAE Architecture](architecture-diagrams/cdae-architecture.png)
 
 **Key Components**:
 - **User Embedding Layer**: Represents each user as a dense vector.
